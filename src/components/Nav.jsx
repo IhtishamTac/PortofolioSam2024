@@ -9,7 +9,7 @@ const Nav = () => {
     };
 
     return (
-        <nav className="absolute top-0 left-0 right-0 p-8 z-10 bg-transparent">
+        <nav className="bg-slate-950 absolute top-0 left-0 right-0 p-8 z-10 bg-transparent">
             <div className="container mx-auto flex justify-between items-center">
                 <div className="text-white text-lg font-bold">
                     <Link to="/">Sam Dev</Link>
