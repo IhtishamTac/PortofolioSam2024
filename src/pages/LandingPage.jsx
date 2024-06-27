@@ -1,8 +1,9 @@
 import Nav from "../components/Nav";
+import Footer from "../components/Footer";
 // import bg from "../assets/img/bg.jpg";
 import medianHome from "../assets/img/median-home.png";
 import ujikomHome from "../assets/img/ujikom-home.png";
-import person from "../assets/img/guts.png"
+import person from "../assets/img/profile.jpg"
 import { Link } from "react-router-dom";
 
 const LandingPage = () => {
@@ -28,7 +29,7 @@ const LandingPage = () => {
                     {/* <Link className="text-white m-10 hover:underline">Other project...</Link> */}
                 </div>
                 <div className="card-project">
-                    <div className="project p1 flex justify-between items-center">
+                    <div className="project p1 flex justify-between items-center gap-10">
                         <img src={medianHome} style={{ width: '550px' }}></img>
                         <div className="project-desc">
                             <h1 className="text-white text-4xl font-bold">Median E-Certificate</h1>
@@ -37,7 +38,7 @@ const LandingPage = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="project p2 flex justify-between items-center">
+                    <div className="project p2 flex justify-between items-center gap-10">
                         <div className="project-desc">
                             <h1 className="text-white text-4xl font-bold">Flybook</h1>
                             <p className="text-white">
@@ -63,48 +64,7 @@ const LandingPage = () => {
             {/* <div style={{height:'300px'}}>
 
             </div> */}
-            <div className="footer bg-gray-900 text-white p-10">
-                <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
-                    <div>
-                        <h2 className="text-lg font-bold mb-4">
-                            <Link to="/">Sam Dev</Link>
-                        </h2>
-                        <p>Creating innovative solutions for modern web development.</p>
-                    </div>
-                    <div>
-                        <h2 className="text-lg font-bold mb-4">Quick Links</h2>
-                        <ul>
-                            <li className="mb-2"><Link to="/">Home</Link></li>
-                            <li className="mb-2"><Link to="/about">About</Link></li>
-                            <li className="mb-2"><Link to="/services">Services</Link></li>
-                            <li className="mb-2"><Link to="/contact">Contact</Link></li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h2 className="text-lg font-bold mb-4">Follow Us</h2>
-                        <ul className="flex space-x-4">
-                            <li><a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a></li>
-                            <li><a href="https://twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a></li>
-                            <li><a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-                            <li><a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a></li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h2 className="text-lg font-bold mb-4">Subscribe</h2>
-                        <form>
-                            <input
-                                type="email"
-                                placeholder="Enter your email"
-                                className="w-full p-2 mb-4 text-gray-900 rounded"
-                            />
-                            <button className="w-full p-2 bg-blue-600 rounded text-white">Subscribe</button>
-                        </form>
-                    </div>
-                </div>
-                <div className="mt-10 text-center border-t border-gray-700 pt-4">
-                    <p>&copy; 2024 Sam Dev. All rights reserved.</p>
-                </div>
-            </div>
+            <Footer />
 
         </>
     );

@@ -18,11 +18,11 @@ const Nav = () => {
                     <Link to="/" className="text-gray-300 hover:text-white">
                         Home
                     </Link>
-                    <Link to="/about" className="text-gray-300 hover:text-white">
+                    <Link to="/about-me" className="text-gray-300 hover:text-white">
                         About
                     </Link>
-                    <Link to="/services" className="text-gray-300 hover:text-white">
-                        Services
+                    <Link to="/other-project" className="text-gray-300 hover:text-white">
+                        Projects
                     </Link>
                     <Link to="/contact" className="text-gray-300 hover:text-white">
                         Contact
