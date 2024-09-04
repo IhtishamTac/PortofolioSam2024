@@ -7,6 +7,14 @@ import smkn2logo from "../assets/img/smkn2logo.png";
 import phplogo from "../assets/img/languages/phplogo.png";
 import jslogo from "../assets/img/languages/js.png";
 import pythonlogo from "../assets/img/languages/python.svg";
+import kotlinlogo from "../assets/img/languages/kotlin.svg";
+
+import laravellogo from "../assets/img/languages/laravel.svg";
+import reactlogo from "../assets/img/languages/react.svg";
+import vuelogo from "../assets/img/languages/vuejs.svg";
+import nodelogo from "../assets/img/languages/nodejs.svg";
+import djangologo from "../assets/img/languages/django.svg";
+import androidlogo from "../assets/img/languages/android.svg";
 
 const AboutMe = () => {
     return (
@@ -46,9 +54,10 @@ const AboutMe = () => {
                                     Languages
                                 </h1>
                                 <div className="pl-10 pr-10 pt-3 flex gap-2">
-                                    <img src={phplogo} className="h-[50px]" alt="langlogo" />
+                                    <img src={phplogo} className="h-[45px]" alt="langlogo" />
                                     <img src={jslogo} className="h-[50px]" alt="langlogo" />
                                     <img src={pythonlogo} className="h-[50px]" alt="langlogo" />
+                                    <img src={kotlinlogo} className="h-[50px]" alt="langlogo" />
                                 </div>
                             </div>
                             <div className="framework mt-5 text-right">
@@ -56,9 +65,12 @@ const AboutMe = () => {
                                     Framework
                                 </h1>
                                 <div className="pl-10 pr-10 pt-3 flex gap-2 justify-end">
-                                    <img src={phplogo} className="h-[50px]" alt="langlogo" />
-                                    <img src={jslogo} className="h-[50px]" alt="langlogo" />
-                                    <img src={pythonlogo} className="h-[50px]" alt="langlogo" />
+                                    <img src={laravellogo} className="h-[50px]" alt="langlogo" />
+                                    <img src={reactlogo} className="h-[50px]" alt="langlogo" />
+                                    <img src={vuelogo} className="h-[50px]" alt="langlogo" />
+                                    <img src={nodelogo} className="h-[50px]" alt="langlogo" />
+                                    <img src={djangologo} className="h-[50px]" alt="langlogo" />
+                                    <img src={androidlogo} className="h-[50px]" alt="langlogo" />
                                 </div>
                             </div>
                         </div>

@@ -9,7 +9,7 @@ const Nav = () => {
     };
 
     return (
-        <nav className="bg-slate-950 absolute top-0 left-0 right-0 p-8 z-10 bg-transparent">
+        <nav className="bg-slate-950 absolute top-0 left-0 right-0 p-8 z-10">
             <div className="container mx-auto flex justify-between items-center">
                 <div className="text-white text-lg font-bold">
                     <Link to="/">Sam Dev</Link>
@@ -21,9 +21,9 @@ const Nav = () => {
                     <Link to="/about-me" className="text-gray-300 hover:text-white">
                         About
                     </Link>
-                    <Link to="/other-project" className="text-gray-300 hover:text-white">
-                        Projects
-                    </Link>
+                    {/* <Link to="/achievement" className="text-gray-300 hover:text-white">
+                        Achievement
+                    </Link> */}
                     <Link to="/contact" className="text-gray-300 hover:text-white">
                         Contact
                     </Link>
@@ -52,11 +52,8 @@ const Nav = () => {
                 <Link to="/" className="block text-gray-300 hover:text-white p-2">
                     Home
                 </Link>
-                <Link to="/about" className="block text-gray-300 hover:text-white p-2">
+                <Link to="/about-me" className="block text-gray-300 hover:text-white p-2">
                     About
-                </Link>
-                <Link to="/services" className="block text-gray-300 hover:text-white p-2">
-                    Services
                 </Link>
                 <Link to="/contact" className="block text-gray-300 hover:text-white p-2">
                     Contact
